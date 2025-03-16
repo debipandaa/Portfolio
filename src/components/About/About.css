@@ -1,0 +1,30 @@
+.about-container {
+  display: flex;
+  padding: 30px 20px;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+.about-img img {
+  max-width: 500px;
+}
+
+@media (max-width: 1200px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-img img {
+    max-width: 350px;
+  }
+}

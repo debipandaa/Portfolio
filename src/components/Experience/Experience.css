@@ -1,0 +1,26 @@
+.experience-container {
+  padding: 30px 0;
+  background-color: black;
+  color: white;
+}
+
+.experience-container h1 {
+  margin: 0;
+  text-align: center;
+}
+.experience-cards {
+  padding: 1rem;
+}
+
+.experience-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience-card {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 2rem 2rem 0;
+}

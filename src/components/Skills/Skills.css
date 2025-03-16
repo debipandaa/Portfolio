@@ -1,0 +1,29 @@
+.skills-container {
+  padding: 60px 80px;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.skills-container h1 {
+  text-align: center;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+.skill {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 24px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill:hover {
+  background-color: black;
+  color: white;
+}

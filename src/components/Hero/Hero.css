@@ -1,0 +1,50 @@
+.hero-container {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+.intro p {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.hero-container img {
+  max-width: 100%;
+  min-width: 36rem;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.intro h1 span {
+  font-weight: bolder;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+/* "Developer" */
+.intro h1 .span3 {
+  font-weight: bold;
+  color: #000;
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-container img {
+    max-width: 100%;
+    min-width: 25rem;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
